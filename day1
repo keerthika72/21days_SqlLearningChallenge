@@ -1,0 +1,10 @@
+ Day 1 of my 21-Day SQL Challenge with Indian Data Club, sponsored by DPDzero 🚀
+ Today i have learned about select statement and how to use it correctly.
+ Task:List all unique hospital services available in the hospital.
+ Query:
+ select distinct service as unique_hospital_services from services_weekly;
+ Output:
+ general_medicine 
+ surgery
+ ICU
+ emergency
