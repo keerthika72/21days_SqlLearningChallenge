@@ -1,0 +1,9 @@
+Day 2 – IDC 21 Days SQL Challenge 
+Today’s focus was on filtering data using WHERE conditions and applying multiple conditions to get meaningful insights.
+task:
+Find all patients admitted to 'Surgery' service with a satisfaction score below 70, 
+showing their patient_id, name, age, and satisfaction score.
+Query:
+select patient_id,name,age,satisfaction as satisfaction_score 
+from patients 
+where service='surgery' and satisfaction <70;
